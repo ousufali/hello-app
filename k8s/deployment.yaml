@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: ousufali/hello-app:v1
+          image: ousufali/hello-app:v2
