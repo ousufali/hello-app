@@ -3,8 +3,3 @@ kind: Kustomization
 namespace: ousuf-dev
 resources:
   - deployment.yaml
-
-configMapGenerator:
-  - name: cluster-config
-    literals:
-      - environment=production
